@@ -1,0 +1,171 @@
+% ACL Paper Skeleton (Long Paper — 8 pages)
+% Replace placeholders marked with <...> before use
+\documentclass[11pt]{article}
+
+% ACL style — update year as needed
+\usepackage[hyperref]{acl2025}
+
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{inconsolata}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\newcommand{\ours}{\textsc{<MethodName>}}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+
+\title{<Paper Title>}
+
+\author{
+  <Author 1> \\
+  <Affiliation 1> \\
+  \texttt{<email1>} \\\And
+  <Author 2> \\
+  <Affiliation 2> \\
+  \texttt{<email2>} \\
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+% NLP-style abstract: task, challenge, approach, results
+\todo{Write abstract — 150-250 words}
+\end{abstract}
+
+%% ============================================================
+\section{Introduction}
+\label{sec:intro}
+
+\todo{Motivation — why this NLP problem matters}
+
+\todo{Specific challenge and gap in existing work}
+
+\todo{Our approach and linguistic/computational insight}
+
+\todo{Results summary}
+
+Our contributions include:
+\begin{itemize}
+    \item \todo{Contribution 1}
+    \item \todo{Contribution 2}
+    \item \todo{Contribution 3}
+\end{itemize}
+
+%% ============================================================
+\section{Related Work}
+\label{sec:related}
+
+\paragraph{<Topic 1>.}
+\todo{Related work — highlight difference from our work}
+
+\paragraph{<Topic 2>.}
+\todo{Related work group 2}
+
+%% ============================================================
+\section{Background}
+\label{sec:background}
+
+% ACL papers often need linguistic/task background
+\paragraph{Task Definition.}
+\todo{Formal task definition}
+
+\paragraph{Notation.}
+\todo{Key notation and terminology}
+
+%% ============================================================
+\section{Method}
+\label{sec:method}
+
+\todo{Method overview}
+
+\subsection{<Component 1>}
+\todo{Architecture or algorithm details}
+
+\subsection{<Component 2>}
+\todo{Key technical contribution}
+
+\subsection{Training}
+\todo{Training objective, data augmentation if any}
+
+%% ============================================================
+\section{Experimental Setup}
+\label{sec:setup}
+
+\paragraph{Datasets.}
+\todo{Dataset descriptions — include language, size, split info}
+
+\paragraph{Baselines.}
+\todo{Baseline systems}
+
+\paragraph{Evaluation Metrics.}
+\todo{Metrics with justification}
+
+\paragraph{Implementation Details.}
+\todo{Model size, hyperparameters, hardware}
+
+%% ============================================================
+\section{Results and Analysis}
+\label{sec:results}
+
+\subsection{Main Results}
+\todo{Main comparison table}
+
+\subsection{Ablation Study}
+\todo{Component analysis}
+
+\subsection{Error Analysis}
+% ACL specifically values error analysis
+\todo{Systematic error categorization and examples}
+
+\subsection{Case Study}
+\todo{Qualitative examples with discussion}
+
+%% ============================================================
+\section{Discussion}
+\label{sec:discussion}
+\todo{Broader implications, connections to linguistics}
+
+%% ============================================================
+\section{Conclusion}
+\label{sec:conclusion}
+\todo{Summary, limitations, future work}
+
+%% ============================================================
+% Limitations section (required by ACL since 2023)
+\section*{Limitations}
+\todo{Honest discussion of limitations}
+
+% Ethics Statement (if applicable)
+% \section*{Ethics Statement}
+% \todo{Ethical considerations, data privacy, bias}
+
+% Acknowledgments
+% \section*{Acknowledgments}
+% \todo{Funding, computing resources, helpful discussions}
+
+\bibliography{references}
+\bibliographystyle{acl_natbib}
+
+%% ============================================================
+\appendix
+\section{Dataset Details}
+\label{app:data}
+\todo{Full dataset statistics, preprocessing}
+
+\section{Additional Results}
+\label{app:results}
+\todo{Per-language/per-domain breakdowns}
+
+\section{Annotation Guidelines}
+\label{app:annotation}
+\todo{If applicable — human evaluation setup}
+
+\end{document}

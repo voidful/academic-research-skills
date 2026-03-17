@@ -1,0 +1,190 @@
+% NeurIPS Paper Skeleton
+% Replace placeholders marked with <...> before use
+\documentclass{article}
+
+% NeurIPS style — update year as needed
+\usepackage[final]{neurips_2025}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+% Custom commands
+\newcommand{\ours}{\textsc{<MethodName>}}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+
+\title{<Paper Title>}
+
+\author{
+  <Author 1> \\
+  <Affiliation 1> \\
+  \texttt{<email1>} \\
+  \And
+  <Author 2> \\
+  <Affiliation 2> \\
+  \texttt{<email2>} \\
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+% 4-sentence structure:
+% S1: Problem context and importance
+% S2: Key limitation of existing approaches
+% S3: Our approach and key insight
+% S4: Main results and significance
+\todo{Write abstract — 150-250 words}
+\end{abstract}
+
+%% ============================================================
+\section{Introduction}
+\label{sec:intro}
+
+% P1: Broad context — why this area matters
+\todo{Broad motivation}
+
+% P2: Specific problem — what exactly are we solving
+\todo{Specific problem statement}
+
+% P3: Existing approaches and their limitations
+\todo{Prior work limitations}
+
+% P4: Our approach — key insight and method overview
+\todo{Our approach overview}
+
+% P5: Contributions list
+Our main contributions are:
+\begin{itemize}
+    \item \todo{Contribution 1 — conceptual/methodological}
+    \item \todo{Contribution 2 — technical}
+    \item \todo{Contribution 3 — empirical}
+\end{itemize}
+
+%% ============================================================
+\section{Related Work}
+\label{sec:related}
+
+% Group by topic, not chronologically
+\paragraph{<Topic 1>.}
+\todo{Related work group 1}
+
+\paragraph{<Topic 2>.}
+\todo{Related work group 2}
+
+\paragraph{<Topic 3>.}
+\todo{Related work group 3}
+
+%% ============================================================
+\section{Method}
+\label{sec:method}
+
+% Overview paragraph — the "30-second version"
+\todo{Method overview — reference Figure 1}
+
+\subsection{Problem Formulation}
+\label{sec:formulation}
+\todo{Formal problem definition, notation}
+
+\subsection{<Component 1>}
+\label{sec:component1}
+\todo{First key component}
+
+\subsection{<Component 2>}
+\label{sec:component2}
+\todo{Second key component}
+
+\subsection{Training and Inference}
+\label{sec:training}
+\todo{Training procedure, loss functions, inference details}
+
+%% ============================================================
+\section{Experiments}
+\label{sec:experiments}
+
+\subsection{Experimental Setup}
+\label{sec:setup}
+
+\paragraph{Datasets.}
+\todo{Dataset descriptions and statistics}
+
+\paragraph{Baselines.}
+\todo{Baseline methods and their configurations}
+
+\paragraph{Implementation details.}
+\todo{Hyperparameters, hardware, training details}
+
+\subsection{Main Results}
+\label{sec:main_results}
+
+\todo{Main comparison table and analysis}
+
+% Example table structure:
+% \begin{table}[t]
+% \caption{Main results on <benchmark>. Best in \textbf{bold}, second best \underline{underlined}.}
+% \label{tab:main}
+% \centering
+% \begin{tabular}{lcc}
+% \toprule
+% Method & Metric 1 & Metric 2 \\
+% \midrule
+% Baseline 1 & 00.0 & 00.0 \\
+% Baseline 2 & 00.0 & 00.0 \\
+% \midrule
+% \ours & \textbf{00.0} & \textbf{00.0} \\
+% \bottomrule
+% \end{tabular}
+% \end{table}
+
+\subsection{Ablation Study}
+\label{sec:ablation}
+\todo{Ablation experiments — one table per research question}
+
+\subsection{Analysis}
+\label{sec:analysis}
+\todo{Qualitative analysis, visualizations, failure cases}
+
+%% ============================================================
+\section{Conclusion}
+\label{sec:conclusion}
+
+% P1: Summarize what we did and key findings
+\todo{Summary}
+
+% P2: Limitations
+\todo{Limitations}
+
+% P3: Future work
+\todo{Future directions}
+
+%% ============================================================
+% Acknowledgments (only in camera-ready)
+% \begin{ack}
+% \todo{Acknowledgments}
+% \end{ack}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+%% ============================================================
+% Appendix
+\appendix
+\section{Additional Experimental Details}
+\label{app:details}
+\todo{Full hyperparameter tables, additional results}
+
+\section{Proofs}
+\label{app:proofs}
+\todo{Deferred proofs}
+
+\end{document}

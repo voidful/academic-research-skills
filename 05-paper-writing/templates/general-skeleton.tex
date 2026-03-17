@@ -1,0 +1,244 @@
+% General Academic Paper Skeleton
+% Adaptable to any venue — replace placeholders marked with <...>
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{natbib}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+% Custom commands
+\newcommand{\ours}{\textsc{<MethodName>}}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\E}{\mathbb{E}}
+
+\title{<Paper Title>}
+
+\author{
+  <Author 1>\thanks{Equal contribution.} \\
+  <Affiliation 1> \\
+  \texttt{<email1>} \\
+  \and
+  <Author 2> \\
+  <Affiliation 2> \\
+  \texttt{<email2>} \\
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+% Structure: Problem → Gap → Method → Results → Impact
+\todo{Write abstract — 150-250 words}
+\end{abstract}
+
+%% ============================================================
+\section{Introduction}
+\label{sec:intro}
+
+% Funnel structure: broad → specific → gap → our work → contributions
+\todo{Opening paragraph — broad context}
+
+\todo{Problem specification — what exactly needs solving}
+
+\todo{Existing approaches and why they fall short}
+
+\todo{Our approach — key idea in one paragraph}
+
+\noindent Our main contributions are:
+\begin{enumerate}
+    \item \todo{Contribution 1 — conceptual/theoretical}
+    \item \todo{Contribution 2 — methodological}
+    \item \todo{Contribution 3 — empirical}
+\end{enumerate}
+
+%% ============================================================
+\section{Related Work}
+\label{sec:related}
+
+\subsection{<Research Direction 1>}
+\todo{Group of related work with clear differentiation}
+
+\subsection{<Research Direction 2>}
+\todo{Another group — end each subsection with how we differ}
+
+%% ============================================================
+\section{Preliminaries}
+\label{sec:prelim}
+
+\todo{Background knowledge, notation table, problem formulation}
+
+% Notation table example:
+% \begin{table}[h]
+% \caption{Notation summary.}
+% \centering
+% \begin{tabular}{cl}
+% \toprule
+% Symbol & Description \\
+% \midrule
+% $x$ & Input \\
+% $y$ & Output \\
+% $\theta$ & Model parameters \\
+% \bottomrule
+% \end{tabular}
+% \end{table}
+
+%% ============================================================
+\section{Method}
+\label{sec:method}
+
+% Start with overview paragraph + figure reference
+\todo{Method overview — ``Figure~\ref{fig:overview} illustrates...''}
+
+% \begin{figure}[t]
+%     \centering
+%     % \includegraphics[width=\linewidth]{figures/overview.pdf}
+%     \caption{Overview of \ours. \todo{Pipeline figure description.}}
+%     \label{fig:overview}
+% \end{figure}
+
+\subsection{Problem Formulation}
+\label{sec:formulation}
+\todo{Formal setup: input space, output space, objective}
+
+\subsection{<Core Component 1>}
+\label{sec:comp1}
+\todo{Detail with equations — justify each design choice}
+
+\subsection{<Core Component 2>}
+\label{sec:comp2}
+\todo{Detail with equations}
+
+\subsection{Optimization}
+\label{sec:optimization}
+\todo{Loss function, training procedure}
+
+% Algorithm example:
+% \begin{algorithm}[t]
+% \caption{Training procedure for \ours}
+% \label{alg:training}
+% \begin{algorithmic}[1]
+% \REQUIRE Dataset $\mathcal{D}$, learning rate $\eta$
+% \ENSURE Trained model parameters $\theta^*$
+% \STATE Initialize $\theta$
+% \FOR{epoch $= 1$ to $T$}
+%     \FOR{mini-batch $(x, y) \sim \mathcal{D}$}
+%         \STATE Compute loss $\mathcal{L}(\theta; x, y)$
+%         \STATE Update $\theta \leftarrow \theta - \eta \nabla_\theta \mathcal{L}$
+%     \ENDFOR
+% \ENDFOR
+% \end{algorithmic}
+% \end{algorithm}
+
+%% ============================================================
+\section{Theoretical Analysis}
+\label{sec:theory}
+% Optional — include if you have theoretical contributions
+
+\todo{Theorem statements, proof sketches (defer full proofs to appendix)}
+
+%% ============================================================
+\section{Experiments}
+\label{sec:experiments}
+
+\subsection{Setup}
+\label{sec:setup}
+
+\paragraph{Datasets.}
+\todo{Names, sizes, splits, preprocessing}
+
+\paragraph{Baselines.}
+\todo{Methods compared against, with citations}
+
+\paragraph{Metrics.}
+\todo{Evaluation metrics with definitions}
+
+\paragraph{Implementation Details.}
+\todo{Architecture, hyperparameters, hardware, runtime}
+
+\subsection{Main Results}
+\label{sec:main_results}
+
+\todo{Primary comparison — table + analysis paragraphs}
+
+% Table template:
+% \begin{table}[t]
+% \caption{Comparison on <benchmark>. \textbf{Bold}: best. \underline{Underline}: second best.}
+% \label{tab:main}
+% \centering
+% \begin{tabular}{lccc}
+% \toprule
+% Method & Metric 1 $\uparrow$ & Metric 2 $\uparrow$ & Metric 3 $\downarrow$ \\
+% \midrule
+% Baseline 1 & 00.0 & 00.0 & 00.0 \\
+% Baseline 2 & 00.0 & 00.0 & 00.0 \\
+% \midrule
+% \ours & \textbf{00.0} & \textbf{00.0} & \textbf{00.0} \\
+% \bottomrule
+% \end{tabular}
+% \end{table}
+
+\subsection{Ablation Study}
+\label{sec:ablation}
+\todo{Systematic removal/variation of components}
+
+\subsection{Analysis}
+\label{sec:analysis}
+\todo{Qualitative examples, visualizations, failure cases, scaling}
+
+%% ============================================================
+\section{Conclusion}
+\label{sec:conclusion}
+
+% P1: What we did and key takeaways
+\todo{Summary of contributions and findings}
+
+% P2: Limitations (be honest)
+\todo{Known limitations}
+
+% P3: Future directions
+\todo{Future work}
+
+%% ============================================================
+\section*{Acknowledgments}
+\todo{Funding, compute, helpful discussions}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+%% ============================================================
+\appendix
+
+\section{Proof of Theorem~\ref{thm:main}}
+\label{app:proof}
+\todo{Full proof}
+
+\section{Extended Experimental Results}
+\label{app:results}
+\todo{Additional tables, per-category breakdowns}
+
+\section{Hyperparameter Sensitivity}
+\label{app:hyperparams}
+\todo{Sensitivity analysis}
+
+\section{Broader Impact Statement}
+\label{app:impact}
+\todo{Societal implications}
+
+\end{document}
