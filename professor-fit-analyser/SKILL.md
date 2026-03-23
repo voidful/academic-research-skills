@@ -1,16 +1,8 @@
 ---
 name: professor-fit-analyzer
 description: analyze a professor from google scholar, publication lists, personal websites, lab pages, dblp, semantic scholar, arxiv, and paper pages to evaluate research strength, mentoring quality, collaboration network, lab resources, research taxonomy, future directions, applicant fit, outreach emails, and interview strategy. use when the user wants to assess whether a professor or lab is worth applying to, compare advisors, prepare a cold email, infer future research openings, or build a structured dossier from public academic evidence.
-version: "1.1.0"
 license: MIT
-compatibility:
-  - claude-code
-  - codex-cli
-  - gemini-cli
-  - agentskills-compatible
-metadata:
-  default_language: zh-TW
-  tags: [academic, professor, advisor, application, cold-email, interview, research-analysis]
+compatibility: claude-code, codex-cli, gemini-cli, agentskills-compatible
 ---
 
 # Professor Fit Analyzer
