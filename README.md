@@ -3,9 +3,11 @@
 一套完整的學術研究 Skill 套件，符合 [Agent Skills 開放標準](https://agentskills.io/specification)。支援 **Claude Code**、**ChatGPT / Codex CLI**、**Gemini CLI**。
 
 ## Usage  
-Claude Code: `git clone <repo> ~/.claude/skills/academic-research`
-ChatGPT/Codex CLI: `git clone <repo> ~/.codex/skills/academic-research`
-Gemini CLI: `git clone <repo> ~/.gemini/skills/academic-research`
+Claude Code: `git clone <repo> ~/.claude/skills/academic-research` 
+
+ChatGPT/Codex CLI: `git clone <repo> ~/.codex/skills/academic-research` 
+
+Gemini CLI: `git clone <repo> ~/.gemini/skills/academic-research` 
 
 ## 功能總覽
 
