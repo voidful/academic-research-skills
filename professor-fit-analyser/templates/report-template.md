@@ -2,8 +2,25 @@
 
 - **教授姓名**: [填寫]
 - **分析日期**: [填寫]
+- **申請者層級**: [PhD / 碩士（論文） / 碩士（修課） / 大學部專題 / RA / Postdoc / 其他]
 - **資料來源**: [列出所有使用的來源及 URL]
 - **覆蓋統計**: 共識別 [N] 篇論文，深度閱讀 [N] 篇，元數據瀏覽 [N] 篇，未取得 [N] 篇
+
+*本報告分析深度及建議已根據申請者層級進行校準。*
+
+---
+
+## 0. Field Profile
+
+- **領域**: [填寫]
+- **出版文化**: conference-driven / journal-driven / monograph-driven / mixed
+- **作者排序慣例**: first-and-last / alphabetical / single-author common / large-team
+- **實驗室規模常態**: large group / small group / solo scholar
+- **正常年出版量**: [填寫，例：本領域 productive professor 約 X–Y 篇/年]
+- **關鍵資源類型**: [填寫，例：compute / wet-lab equipment / clinical access / field access / archival access / studio access / ...]
+- **指導文化**: structured lab meetings / seminar and reading group / clinical mentoring / studio critique / [填寫]
+
+*本報告所有判斷均已根據上述領域特性進行校準。*
 
 ---
 
@@ -66,10 +83,11 @@
 
 - **作者**: [填寫]
 - **主導類型**: 學生主導 / 教授主導 / 外部主導 / 不確定
-- **問題**: [填寫] <!-- 證據等級: A/B/C/D -->
-- **方法**: [填寫]
-- **創新類型**: [problem framing / model design / training recipe / ...]
-- **資源需求**: [填寫] <!-- 直接陳述 or 推論 -->
+- **作者排序解讀**: [根據 Field Profile 解讀] <!-- 證據等級: A/B/C/D -->
+- **問題**: [填寫]
+- **方法/取徑/論證**: [填寫]
+- **創新類型**: [problem framing / conceptual insight / methodological innovation / data or resource contribution / system or infrastructure building / theoretical analysis / empirical discovery / interpretive or critical contribution / clinical or translational contribution / synthesis or survey]
+- **資源需求**: [填寫，使用與領域相關的資源類型] <!-- 直接陳述 or 推論 -->
 - **作者分析**: [填寫]
 - **影響與訊號**: [填寫]
 - **寫作品質**: [填寫]
@@ -104,13 +122,14 @@
 
 ### 實驗室資源
 - **判斷**: [填寫]
-- **支持證據**: [填寫]
+- **支持證據**: [填寫，使用領域相關的資源類型]
 - **替代解釋**: [至少 2 個]
 - **加權判斷**: [填寫]
 - **信心**: 高 / 中 / 低
 
 ### Workload 與文化風險
 - **判斷**: [填寫]
+- **出版量 vs 領域常態**: [填寫]
 - **支持證據**: [填寫]
 - **替代解釋**: [至少 2 個]
 - **加權判斷**: [填寫]
@@ -137,8 +156,14 @@
 ## 7. Fit Analysis for the Applicant
 
 ### 申請者定位
-- 角色分類: [fast experimentalist / theory builder / systems contributor / ...]
+- 申請者層級: [PhD / 碩士 / 大學部專題 / RA / Postdoc / 其他]
+- 角色分類: [empirical researcher / theory builder / interpretive scholar / clinical-translational researcher / qualitative researcher / methodologist / resource creator / cross-domain bridge / application specialist / apprentice learner]
 - 教授-學生類型匹配: [填寫]
+
+### 層級適配分析
+- **該教授是否適合此層級的學生**: [填寫——例如：是否曾帶過碩士生/大學部生、是否有合適範圍的子問題]
+- **可進入的切入點**: [填寫——對大學部/碩士生尤其重要]
+- **學習機會**: [填寫——對大學部生尤其重要]
 
 ### 匹配分析
 - **最強匹配面向**: [填寫]
@@ -150,9 +175,23 @@
 
 ## 8. Warning Signs
 
+### 通用警訊
+
 | 警訊 | 證據 | 證據等級 | 嚴重程度 | 良性解釋 |
 |------|------|---------|---------|---------|
 | [填寫] | [填寫] | A/B/C/D | blocking/serious/minor | [填寫] |
+
+### 層級相關警訊
+
+| 警訊（針對申請者層級） | 證據 | 嚴重程度 | 說明 |
+|----------------------|------|---------|---------|
+| [填寫] | [填寫] | blocking/serious/minor | [填寫] |
+
+### 領域特定警訊
+
+| 警訊（針對此領域） | 證據 | 嚴重程度 | 說明 |
+|------------------|------|---------|---------|
+| [填寫——文組例：教授學派過於狹窄、無可見學術社群參與；生醫例：實驗室仰賴即將結束的單一計畫、臨床負擔過重] | [填寫] | blocking/serious/minor | [填寫] |
 
 *若無警訊，明確聲明：「未發現明顯警訊。」*
 
@@ -160,13 +199,21 @@
 
 ## 9. Cold Email Templates
 
-### 版本一：申請學生
+*根據申請者層級選擇適當版本。*
+
+### 版本一：博士申請者
 [填寫完整信件]
 
-### 版本二：研究合作
+### 版本二：碩士論文學生
 [填寫完整信件]
 
-### 版本三：短信建立關係
+### 版本三：大學部專題生 / 學士論文
+[填寫完整信件]
+
+### 版本四：研究合作（博後/教職/業界）
+[填寫完整信件]
+
+### 版本五：短信建立關係（任何層級）
 [填寫完整信件]
 
 ---
@@ -192,11 +239,11 @@
 
 ## 11. Final Verdict
 
-- **最適合的申請者類型**: [填寫]
-- **最不適合的申請者類型**: [填寫]
-- **最大機會**: [填寫]
+- **在此層級最適合的申請者類型**: [填寫]
+- **在此層級最不適合的申請者類型**: [填寫]
+- **最大機會（針對申請者層級）**: [填寫]
 - **最大風險**: [填寫]
-- **下一步行動（3 項）**:
-  1. [填寫]
+- **下一步行動（3 項，根據層級校準）**:
+  1. [填寫——例如大學部生：「修 X 課程」、「學 Y 工具」；博士生：「準備 X 方向的研究計畫」]
   2. [填寫]
   3. [填寫]
